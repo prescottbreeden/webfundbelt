@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* div{
+    border: 1px dashed black;
+} */
+.wrapper {
+    width: 970px;
+    margin: 60px auto;
+
+    height: 800px;
+}
+.header {
+    position: relative;
+    border: 1px solid #eaeaea;
+    width: 100%;
+    display: inline-block;
+    background-color: #f7f7f5;
+    line-height: 60px;
+    border-radius: 5px 5px 5px 5px;
+}
+.header button {
+    position: relative;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #eaeaea;
+    padding: 22px 22px;
+    background-color: #f7f7f5;
+}
+
+.icon-img {
+    position: absolute;
+    height: 65px;
+    width: 70px;
+    border-radius: 5px 0 0 5px;
+    background-color: #5a5a5a;
+}
+.nav {
+    position: relative;
+    display: inline-block;
+    margin-left: 70px;
+}
+.search {
+    display: inline-block;
+    margin-left: 200px;
+}
+.searchbar {
+    border-radius: 20px;
+    border: #efefed;
+    padding: 8px;
+    width: 160px;
+}
+.mag-glass{
+    position: absolute;
+    height:19px;
+    width: 19px;
+    top: 24px;
+    left:775px;
+}
+.search-arrow{
+    position: absolute;
+    top: 19px;
+    left:910px;
+    height: 30px;
+    width: 30px;
+}
+.hero-img {
+    width: 100%;
+    margin-top: 20px;
+}
+.hero { 
+    color: white;
+    width: 100%;
+    background-color: #4c474b;
+    line-height: 30px;
+    margin-top: -5px;
+    
+}
+.hero a {
+    text-decoration: none;
+    color: #739fbe;
+    display: inline;
+    /* margin-left: 30px; */
+    text-align: center;
+    font-size: 15px;
+}
+.hero p {
+    display: inline;
+    text-align: center;
+    /* margin-left: 30px; */
+    font-size: 18px;
+    color: #585858;
+}
+
+#active-hero {
+    color: white;
+}
+.hero-text-align {
+    margin-left: 30px;
+}
+.discover {
+    width: 99.6%;
+    background-image: linear-gradient(
+        white 10%,
+        #f4f5f0 
+        );
+    /* height: 500px; */
+    border-radius: 10px;
+    border: 3px solid #f3f3f3;
+    margin-top: 20px;
+}
+.discover-header {
+    background-color: white;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 3px solid #f4f4f4;
+}
+
+.discover-header h1 {
+    color: #b1b1b1;
+    padding: 0 20px;
+    border-right: 3px solid #f4f4f4;
+    display: inline;
+}
+.discover-header h3 {
+    border: 1px solid #97bcd3;
+    background-image: linear-gradient(
+        #5593be,
+        #4D7792
+        );
+    
+    padding: 10px 30px 8px 30px;
+    color: #e1f2f6;
+    margin-left: 30px;
+    display: inline;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.discover-header span {
+    margin-left: 130px;
+    font-size: 14px;
+    line-height: 10px;
+}
+.box {
+    width: 21.5%;
+    height: 300px;
+    display: inline-block;
+    padding: 0 10px;
+    vertical-align: top;
+    position: relative;
+    #f3f3f3;
+    margin: 30px 0px;
+    
+}
+.box h4 {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.box p {
+    margin-top: 30px;
+    font-size: 12px;
+}
+.box a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #5cafed;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+
+    
+}
+.discover-icon-images{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 2px;
+}
+.product-image {
+    width: 100%;
+    margin: 20px auto;
+    
+}
+.discover-1 {
+    border-right: 3px solid #f3f3f3;
+    margin-left: 20px;
+}
+.discover-2 {
+    border-right: 3px solid #f3f3f3;
+}
+.discover-3 {
+    border-right: 3px solid #f3f3f3;
+}
+.discover-2 .product-image {
+    margin-top: 42px;
+}
+.discover-3 .product-image{
+   margin-top: 34px;
+}  
+.discover-4 .product-image{
+   margin-top: 45px;
+}
+
+.discovery-footer {
+    border-top: 2px solid #e8e8e8;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.more-info {
+    height: 200px;
+}
+.stuff {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.stuff h6 {
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 3px solid #ededed;
+}
+.stuff a {
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    font-size: 13px;
+}
+.footer {
+    width: 100%;
+    height: 60px;
+    font-size: 10px;
+    border-top: 3px solid #ededed;
+}
+.footer p {
+    display: inline;
+    line-height: 50px;
+}
+.footer .email {
+    color: #5593be;
+    text-decoration: underline;
+    
+}
